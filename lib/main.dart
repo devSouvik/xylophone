@@ -9,12 +9,16 @@ class MyApp extends StatelessWidget {
     player.play('note$soundNumber.wav');
   }
 
-  Expanded buildKey({Color color, int soundNumber}) {
+ Expanded buildKey({Color color, int soundNumber, String note}) {
     return Expanded(
       child: FlatButton(
         color: color,
         onPressed: () {
           playSound(soundNumber);
+        },
+        child: Text(
+          '$note',
+          style: TextStyle(color: Colors.white),
         },
       ),
     );
