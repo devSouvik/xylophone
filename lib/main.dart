@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         child: Text(
           '$note',
           style: TextStyle(color: Colors.white),
-        },
+        ),
       ),
     );
   }
