@@ -29,6 +29,12 @@ class MyApp extends StatelessWidget {
                   onPressed: () {
                     soundPlay(1);
                   },
+                  child: Text(
+                    'C',
+                    style: TextStyle(
+                      color: Colors.white,
+                    ),
+                  ),
                 ),
               ),
               Expanded(
@@ -37,6 +43,12 @@ class MyApp extends StatelessWidget {
                   onPressed: () {
                     soundPlay(2);
                   },
+                  child: Text(
+                    'D',
+                    style: TextStyle(
+                      color: Colors.white,
+                    ),
+                  ),
                 ),
               ),
               Expanded(
@@ -45,6 +57,12 @@ class MyApp extends StatelessWidget {
                   onPressed: () {
                     soundPlay(3);
                   },
+                  child: Text(
+                    'E',
+                    style: TextStyle(
+                      color: Colors.white,
+                    ),
+                  ),
                 ),
               ),
               Expanded(
@@ -53,6 +71,12 @@ class MyApp extends StatelessWidget {
                   onPressed: () {
                     soundPlay(4);
                   },
+                  child: Text(
+                    'F',
+                    style: TextStyle(
+                      color: Colors.white,
+                    ),
+                  ),
                 ),
               ),
               Expanded(
@@ -61,6 +85,12 @@ class MyApp extends StatelessWidget {
                   onPressed: () {
                     soundPlay(5);
                   },
+                  child: Text(
+                    'G',
+                    style: TextStyle(
+                      color: Colors.white,
+                    ),
+                  ),
                 ),
               ),
               Expanded(
@@ -69,6 +99,12 @@ class MyApp extends StatelessWidget {
                   onPressed: () {
                     soundPlay(6);
                   },
+                  child: Text(
+                    'A',
+                    style: TextStyle(
+                      color: Colors.white,
+                    ),
+                  ),
                 ),
               ),
               Expanded(
@@ -77,6 +113,12 @@ class MyApp extends StatelessWidget {
                   onPressed: () {
                     soundPlay(7);
                   },
+                  child: Text(
+                    'B',
+                    style: TextStyle(
+                      color: Colors.white,
+                    ),
+                  ),
                 ),
               ),
               Expanded(
@@ -85,6 +127,12 @@ class MyApp extends StatelessWidget {
                   onPressed: () {
                     soundPlay(8);
                   },
+                  child: Text(
+                    'C',
+                    style: TextStyle(
+                      color: Colors.white,
+                    ),
+                  ),
                 ),
               ),
             ],
